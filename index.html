@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio personal de Luis - Desarrollador Web" />
+  <title>Portafolio | [Tu Nombre]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;<span>Dev</span>/&gt;</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hola, mi nombre es</p>
+      <h1 class="hero-title">Luis</h1>
+      <h2 class="hero-role">Desarrollador Web Full Stack</h2>
+      <p class="hero-desc">
+        Creo experiencias digitales modernas, accesibles y de alto rendimiento
+        combinando creatividad y tecnología.
+      </p>
+      <div class="hero-buttons">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-outline">Contactar</a>
+      </div>
+    </div>
+    <a href="#sobre-mi" class="hero-scroll" aria-label="Bajar a la siguiente sección">
+      <span class="mouse"></span>
+    </a>
+  </header>
+
+  <main>
+    <!-- SOBRE MÍ -->
+    <section class="section" id="sobre-mi">
+      <div class="section-container sobre-container">
+        <div class="sobre-avatar">
+          <div class="avatar">PN</div>
+        </div>
+        <div class="sobre-texto">
+          <h2 class="section-title">Sobre <span>mí</span></h2>
+          <p class="section-subtitle">Un poco de mi historia</p>
+          <p>
+            Soy un desarrollador web apasionado por crear soluciones digitales
+            que resuelven problemas reales. Me especializo en el desarrollo
+            frontend con HTML, CSS y JavaScript, pero también disfruto explorar
+            el backend y el diseño de interfaces.
+          </p>
+          <p>
+            Cuando no estoy programando, me gusta aprender nuevas tecnologías,
+            contribuir a proyectos open source y compartir conocimiento con la
+            comunidad.
+          </p>
+          <ul class="sobre-info">
+            <li><span>Nombre:</span> Luis Salazar</li>
+            <li><span>Email:</span> 2511080307@undc.edu.pe</li>
+            <li><span>Ubicación:</span> Cañete, Perú</li>
+            <li><span>Disponibilidad:</span> Freelance / Tiempo completo</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary">Hablemos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section section-alt" id="habilidades">
+      <div class="section-container">
+        <h2 class="section-title">Mis <span>habilidades</span></h2>
+        <p class="section-subtitle">Tecnologías y herramientas que uso</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon skill-html">&#60;&#47;&#62;</div>
+            <h3>HTML5</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 90%" data-level="90%"></div></div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-css">#</div>
+            <h3>CSS3</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%" data-level="85%"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-js">{}</div>
+            <h3>JavaScript</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%" data-level="80%"></div></div>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-react">⚛</div>
+            <h3>React</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 70%" data-level="70%"></div></div>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-node">⬢</div>
+            <h3>Node.js</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 65%" data-level="65%"></div></div>
+            <span class="skill-percent">65%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-git">⑂</div>
+            <h3>Git</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%" data-level="85%"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-python">Py</div>
+            <h3>Python</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 60%" data-level="60%"></div></div>
+            <span class="skill-percent">60%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-figma">F</div>
+            <h3>Figma</h3>
+            <div class="skill-bar"><div class="skill-fill" style="width: 75%" data-level="75%"></div></div>
+            <span class="skill-percent">75%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section" id="proyectos">
+      <div class="section-container">
+        <h2 class="section-title">Mis <span>proyectos</span></h2>
+        <p class="section-subtitle">Algunos trabajos recientes</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image project-img-1">
+              <span class="project-icon">🖥️</span>
+            </div>
+            <div class="project-body">
+              <h3>Proyecto Uno</h3>
+              <p>
+                Aplicación web moderna construida con HTML, CSS y JavaScript.
+                Responsiva y con animaciones fluidas.
+              </p>
+              <div class="project-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small" aria-label="Ver código">GitHub</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="Ver demo">Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image project-img-2">
+              <span class="project-icon">📱</span>
+            </div>
+            <div class="project-body">
+              <h3>Proyecto Dos</h3>
+              <p>
+                Dashboard interactivo con gráficos dinámicos y panel de
+                administración intuitivo.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>APIs</span><span>CSS Grid</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small" aria-label="Ver código">GitHub</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="Ver demo">Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image project-img-3">
+              <span class="project-icon">🛒</span>
+            </div>
+            <div class="project-body">
+              <h3>Proyecto Tres</h3>
+              <p>
+                Tienda en línea con carrito de compras, filtros y búsqueda en
+                tiempo real.
+              </p>
+              <div class="project-tags">
+                <span>React</span><span>Node.js</span><span>REST</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small" aria-label="Ver código">GitHub</a>
+                <a href="#" class="btn btn-small btn-outline" aria-label="Ver demo">Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-alt" id="contacto">
+      <div class="section-container contacto-container">
+        <div class="contacto-info">
+          <h2 class="section-title">Hablemos</h2>
+          <p class="section-subtitle">Estoy abierto a nuevas oportunidades</p>
+          <p>
+            Si tienes un proyecto en mente o simplemente quieres saludar, no
+            dudes en escribirme. Respondo lo antes posible.
+          </p>
+          <ul class="contacto-lista">
+            <li>
+              <span class="contacto-icon">✉️</span>
+              <div><span>Email</span> tu@email.com</div>
+            </li>
+            <li>
+              <span class="contacto-icon">📞</span>
+              <div><span>Teléfono</span> +00 000 000 000</div>
+            </li>
+            <li>
+              <span class="contacto-icon">📍</span>
+              <div><span>Ubicación</span> [Ciudad], [País]</div>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+
+        <form class="contacto-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            <small class="error-msg"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            <small class="error-msg"></small>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+            <small class="error-msg"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+          <p class="form-success" id="form-success" hidden>✓ ¡Mensaje enviado! Me pondré en contacto contigo pronto.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 [Tu Nombre]. Todos los derechos reservados.</p>
+      <p>Hecho con <span class="footer-heart">&#9829;</span> y mucho café</p>
+    </div>
+  </footer>
+
+  <!-- BOTÓN SCROLL TO TOP -->
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
