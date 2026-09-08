@@ -83,6 +83,9 @@ ul {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-style: italic;
+  padding-right: 4px;
+  display: inline-block;
 }
 
 .nav-menu {
