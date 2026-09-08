@@ -375,6 +375,14 @@ ul {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
+.avatar img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
 .sobre-container .section-title,
 .sobre-container .section-subtitle {
   text-align: left;
